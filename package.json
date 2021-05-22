@@ -1,0 +1,61 @@
+{
+  "name": "@planetadeleste/vue-mc-martin-forms",
+  "version": "1.0.0",
+  "description": "Models and Collections for ApiMartinForms plugins",
+  "main": "dist/vue-mc-martin-forms.js",
+  "module": "dist/vue-mc-martin-forms.es.js",
+  "types": "src/index.d.ts",
+  "author": "Alvaro Canepa",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@rollup/plugin-typescript": "^8.2.1",
+    "@types/lodash": "^4.14.168",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "directory-tree": "^2.2.9",
+    "eslint": "^7.25.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "generate-template-files": "^3.0.0",
+    "lodash": "^4.17.21",
+    "rollup": "^2.47.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "ts-loader": "^9.1.1",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4",
+    "vue-mc": "^0.6.0",
+    "vuex-module-decorators": "^1.0.1"
+  },
+  "scripts": {
+    "generate": "node ./tools/generate.js",
+    "lint": "eslint --fix 'src/**/*.ts'",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@planetadeleste/vue-mc": "^1.0.87"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planetadeleste/vue-mc-martin-forms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/planetadeleste/vue-mc-martin-forms/issues"
+  },
+  "homepage": "https://github.com/planetadeleste/vue-mc-martin-forms#readme",
+  "files": [
+    "dist",
+    "src/index.d.ts",
+    "src/types"
+  ],
+  "keywords": [
+    "vuemc",
+    "vue",
+    "mc",
+    "martin-forms"
+  ]
+}
