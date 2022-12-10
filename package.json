@@ -57,5 +57,8 @@
     "vue",
     "mc",
     "martin-forms"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
